@@ -1,0 +1,26 @@
+{
+    "name": "jmz/rotateads",
+    "type": "phpbb-extension",
+    "description": "",
+    "homepage": "",
+    "version": "1.0.0-dev",
+    "time": "2016-11-27",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Jmz Software",
+            "email": "james.taylor@jmzsoftware.com",
+            "homepage": "https://jmzsoftware.com",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Jmz Rotate Ads",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,<3.2.0@dev"
+        }
+    }
+}

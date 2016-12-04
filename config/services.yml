@@ -1,0 +1,11 @@
+services:
+    jmz.rotateads.listener:
+        class: jmz\rotateads\event\main_listener
+        arguments:
+            - '@controller.helper'
+            - '@template'
+            - '@user'
+            - '%core.root_path%'
+            - '%core.php_ext%'
+        tags:
+            - { name: event.listener }
